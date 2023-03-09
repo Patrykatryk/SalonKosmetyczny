@@ -1,5 +1,7 @@
 package Klienci;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Client {
@@ -31,4 +33,6 @@ public class Client {
     public String getPrzeciwwskazania() {
         return przeciwwskazania;
     }
+
+
 }

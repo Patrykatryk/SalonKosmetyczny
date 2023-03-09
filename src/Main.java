@@ -1,14 +1,17 @@
 import Klienci.Client;
+import Zabiegi.MezoterapiaMikroigłowa;
 
 import java.io.*;
 import java.util.Scanner;
 public class Main {
+
     public static void main(String[] args) throws IOException {
         boolean program=true;
         while(program) {
-            System.out.println("Menu:");
-            System.out.println("1. Dodowanie klienta");
-            System.out.println("2. Wyświetl listę wszystkich klientów");
+            System.out.println("\nMenu:");
+            System.out.println("1.  Dodowanie klienta");
+            System.out.println("2.  Wyświetl listę wszystkich klientów");
+            System.out.println("3.  Wykup zabieg");
             System.out.println("99. Zamknij program");
             Scanner choice_input = new Scanner(System.in);
             System.out.println("Wybierz numer zadania: ");
@@ -47,23 +50,49 @@ public class Main {
                     break;
 
                 case 2:
-                    try {
-                        File file = new File("D:\\Programowanie\\Java\\Salon_kosmetyczny\\Clients.txt");
-                        Scanner sc = new Scanner(file);
-                        while (sc.hasNextLine())
-                            System.out.println(sc.nextLine());
-                        sc.close();
-
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    File file = new File("D:\\Programowanie\\Java\\Salon_kosmetyczny\\Clients.txt");
+                    SzukajKlineta(file);
                     break;
 
+
+
+                case 3:
+                    System.out.println("Wybierz zabieg:");
+                    System.out.println("1. Mezoterapia Mikoigłowa \n2. Karboksyterapia");
+                    Scanner choice_input2 = new Scanner(System.in);
+                    int choice2=choice_input2.nextInt();
+                    switch(choice2) {
+                        case 1:
+                            MezoterapiaMikroigłowa igłowa = new MezoterapiaMikroigłowa();
+                            igłowa.czyBolesny();
+                            break;
+                    }
+
+                    break;
+
+
+
                 case 99:
+                    System.out.println("-Wyłączanie programu-");
                     program=false;
                     break;
             }
 
         }
     }
+
+    private static void SzukajKlineta(File file) {
+        try {
+            Scanner sc = new Scanner(file);
+            while (sc.hasNextLine())
+                System.out.println(sc.nextLine());
+            sc.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return ;
+    }
+
+
 }

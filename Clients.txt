@@ -9,3 +9,4 @@ Wiek:43 Imie:Ala Nazwisko:Lala
 Wiek:45 Imie:Kr Nazwisko:We99
 Wiek:45 Imie:Ada Nazwisko:Mada
 Wiek:53 Imie:Iwona Nazwisko:Stasiak Przeciwwskazania:cukrzyca
+Wiek:10   Imie:Monika   Nazwisko:Nowak   Przeciwwskazania:alergia
