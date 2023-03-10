@@ -1,12 +1,3 @@
-Wiek:46 Imie:Monia Nazwisko:Kowalska
-Wiek:26 Imie:Pat Nazwisko:Mat
-Wiek:40 Imie:Iowna Nazwisko:Por
-Wiek:23 Imie:Ki Nazwisko:Pi
-Wiek:49 Imie:Mi Nazwisko:Pi
-Wiek:53 Imie:Ki Nazwisko:Wi
-Wiek:34 Imie:Ala Nazwisko:Lala
-Wiek:43 Imie:Ala Nazwisko:Lala
-Wiek:45 Imie:Kr Nazwisko:We99
-Wiek:45 Imie:Ada Nazwisko:Mada
-Wiek:53 Imie:Iwona Nazwisko:Stasiak Przeciwwskazania:cukrzyca
-Wiek:10   Imie:Monika   Nazwisko:Nowak   Przeciwwskazania:alergia
+
+Wiek:0   Imie:t   Nazwisko:   Przeciwwskazania:t
+Wiek:9   Imie:Alicja   Nazwisko:Icja   Przeciwwskazania:bra
