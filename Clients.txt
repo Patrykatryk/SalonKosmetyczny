@@ -1,3 +1,3 @@
 
-Wiek:0   Imie:t   Nazwisko:   Przeciwwskazania:t
+Wiek:30   Imie:Tamara   Nazwisko:Nowak   Przeciwwskazania:t
 Wiek:9   Imie:Alicja   Nazwisko:Icja   Przeciwwskazania:bra
